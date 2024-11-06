@@ -1,0 +1,47 @@
+*{
+    background-color:aquamarine
+}
+.choice{
+    display:flex;
+    display:inline;
+    align-items: center;
+    justify-content:center;
+    padding-left: 2rem;
+    border-radius:50%;
+}
+
+
+h1{
+    text-align:center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.choices{
+    text-align:center;
+    margin-top: 5rem;
+    
+}
+.same{
+    display: inline-block;
+   
+}
+.scorecard{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#user1,#comp1{
+    font-size: 2rem;
+    gap:3rem;
+    padding:10px;
+}
+#user,#comp{
+    font-size:2rem;
+    gap:3rem;
+}
+.msg-container{
+    height:50px;
+    width:150px;
+    border:3px solid black;
+    margin-left: 43rem;
+}
